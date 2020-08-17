@@ -10,16 +10,43 @@ body{
 
 .input{
     text-align: center;
-    margin: 100px 0;
+    margin: 100px;
 } 
 
 input[type="text"]{
     height: 50px;
     width: 600px;
-    background: whitesmoke;
+    background: rgb(165, 186, 206);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
     font-weight: bold;
     font-size: 20px;
-    border: none;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+::placeholder{
+    color: rgb(81, 107, 122);
+    font-style: italic;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 150px;
+    background: rgb(165, 186, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(25, 40, 40);
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
     border-radius: 5px;
 }
+
+.display{
+    text-align: center;
+}
+
+
