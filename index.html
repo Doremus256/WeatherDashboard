@@ -4,28 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Anyone's Guess - America's Weather Dashboard</title>
+    <title>Anybody's Guess - The Most Trusted Name in Weather</title>
 </head>
 
 <body>
 
+    <div class="row" id="header">
+        <div>
+            <img src="images/AG Logo.png" alt="Website Logo" />
+        </div>
+    </div>
+
+    <h3 id="subheader1">America's Finest Weather Forecast</h3>
+    <h4 id="subHeader2">"Shooting in the Dark Since 2020"</h4>
+
+
     <div class="input">
         <input type="text" class="inputValue" placeholder="Enter City...">
-        <input type="submit" value="submit" id="button">
+        <input type="submit" value="Guess!" id="button">
     </div>
 
     <!-- Where information will appear -->
     <div class="display" id="currentForecast"></div>
     <div id="previousSearches"></div>
     <div id="fiveDayForecast"></div>
-    <script
-    src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
-
