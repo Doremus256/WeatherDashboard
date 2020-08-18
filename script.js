@@ -47,4 +47,5 @@ function displaySearchHistory () {
     }
     $("#previousSearches").html(HTMLstring)
     }
+    
 

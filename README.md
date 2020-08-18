@@ -3,7 +3,6 @@ Weather Dashboard - Brad Doremus - "Anybody's Guess: America's Most Trusted Weat
 Brad Doremus
 GitHub: https://github.com/Doremus256/WeatherDashboard
 Live Website: 
-![screenshot](/images/WeatherDashboardSS)
 
 
 This project is for Homework #6 - Create a weather dashboard
